@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import GlobalStyle from "./globalStyles";
+import { Routes } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import {Button} from "./components/Buttons/fab-Button/index.js"
+
+//Pages
+import Home from "./pages/Home";
+// import SignUp from "./pages/SignupPage";
+// import Pricing from "./pages/PricingPage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Navbar />
+        <Home/>
+      <Routes>
+       
+        {/* <Route path="/signup"  elements={<SignUp/>} />
+				<Route path="/pricing"  elements={<Pricing/>} /> */}
+      </Routes>
+      <Button/>
+      <Footer />
+    </>
   );
 }
 
