@@ -17,7 +17,7 @@ const Home = () => {
 			<Content {...heroTwo} />
 			<Content {...heroThree} />
 			<Carousel />
-			<Game/>
+			{/* <Game/> */}
 		</>
 	);
 };
