@@ -1,6 +1,11 @@
-import { FC, PropsWithChildren, useState } from "react";
-import { FaBeer } from "react-icons/fa";
-import { AiFillFileAdd, AiOutlineRadiusSetting } from "react-icons/ai";
+import { useState } from "react";
+import {
+  FaLink,
+  FaLinkedinIn,
+  // FaTelegram,
+  FaTelegramPlane,
+} from "react-icons/fa";
+// import { AiFillFileAdd, AiOutlineRadiusSetting } from "react-icons/ai";
 import { BiPhoneCall } from "react-icons/bi";
 
 import "./style.css";
@@ -9,31 +14,34 @@ import "./style.css";
 //   children: Object
 // }
 
-const Icon: FC<PropsWithChildren> = ({ children }) => {
-  <span className="material-symbols-outlined">{children}</span>
-};
+// const Icon: FC<PropsWithChildren> = ({ children }) => {
+//   <span className="material-symbols-outlined">{children}</span>
+// };
 
 export const Button = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-
   return (
     <div className={`fab ${isOpen ? "open" : ""}`}>
       <button onClick={() => setIsOpen(!isOpen)}>
-        <Icon><AiFillFileAdd/></Icon>
+        <FaLink />
       </button>
       <div className="menu">
         <button>
-          <Icon><FaBeer/></Icon>
+          <a href="https://t.me/xujamov_l" target>
+            <FaTelegramPlane />
+          </a>
         </button>
         <button>
-          <Icon><BiPhoneCall/></Icon>
-            </button>
+          <BiPhoneCall />
+        </button>
         <button>
-          <Icon><AiOutlineRadiusSetting/></Icon>
+          <a href="https://www.linkedin.com/in/lochinbek-khujamov-3470a5257/" target>
+            <FaLinkedinIn />
+          </a>
         </button>
       </div>
     </div>
   );
 };
-export default Button
+export default Button;
