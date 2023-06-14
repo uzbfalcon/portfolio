@@ -17,7 +17,7 @@ export const FeatureTextWrapper = styled.div`
 
 export const FeatureWrapper = styled.div`
 	display: grid;
-	grid-template-columns: repeat(1, 1fr);
+	grid-template-columns: repeat(3, 1fr);
 	margin-top: 4rem;
 	grid-gap: 2rem;
 	@media screen and (max-width: 1100px) {

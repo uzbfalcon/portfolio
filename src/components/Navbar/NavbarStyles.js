@@ -14,6 +14,7 @@ export const Nav = styled.nav`
 	top: 0;
 	z-index: 50;
 	width: 100%;
+	/* font-style:DM Sans; */
 	transition: background-color 0.3s ease-in;
 `;
 
@@ -77,6 +78,16 @@ export const NavMenu = styled.ul`
 	}
 	> li:first-child {
 		margin-left: auto;
+	}
+	button {
+		width: 7rem;
+		height: 2.5rem;
+		border-radius: 5px;
+		border: 1px solid green;
+		background: rgba(6, 111, 20, 1);
+		color: white;
+;
+
 	}
 `;
 

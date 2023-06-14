@@ -17,7 +17,7 @@ export const HeroVideo = styled.video`
 	top: 0;
 	position: absolute;
 	z-index: -1;
-`;
+	`;
 
 export const HeroText = styled.p`
 	margin-bottom: 35px;
@@ -26,6 +26,9 @@ export const HeroText = styled.p`
 	text-align: center;
 	letter-spacing: 2px;
 	color: #fff;
+	&:hover {
+		transform: scale(1.02);
+	}
 `;
 
 export const ButtonWrapper = styled.div`
@@ -34,6 +37,47 @@ export const ButtonWrapper = styled.div`
 	justify-content: center;
 	flex-flow: wrap;
 	gap: 0.5rem;
+	color: white;
+	button {
+		margin: 10px;
+		color: white;
+		width: 40px;
+		height: 40px;
+	 }
+
+	 .github:hover {
+		color: black;
+		background: white;
+		border-radius: 40%;
+		height: 40px;
+		width: 40px;
+	 }
+	 .instagram:hover {
+		color: white;
+		background: linear-gradient(20deg, rgba(175,195,34,1) 0%, rgba(177,192,34,1) 0%, rgba(253,45,45,1) 46%);
+		border-radius: 40%;
+		height: 40px;
+		width:40px;
+	 }
+	 .linkedin:hover {
+		color: white;
+		background: blue;
+		border-radius: 5px;
+		height: 40px;
+		width: 40px;
+	 }
+	 .telegram:hover {
+		color: white;
+		background: #0072e9;
+		border-radius: 5px;
+		height: 40px;
+		width: 40px;
+	 }
+	 .git, .insta, .link, .tele {
+		height: 40px;
+		width: 40px;
+	 }
+
 `;
 
 export const HeroButton = styled(Button)`

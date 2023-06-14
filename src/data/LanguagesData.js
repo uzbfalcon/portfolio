@@ -7,13 +7,13 @@ import { BiSupport, BiDollar, BiCodeCurly, BiGroup } from 'react-icons/bi';
 import { FaProjectDiagram } from 'react-icons/fa';
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
-export const featuresData = [
-	// {
-	// 	name: 'Best Security',
-	// 	description: 'We offer the best data security to our clients, which makes us stand out',
-	// 	icon: iconStyle(BsFillShieldLockFill),
-	// 	imgClass: 'one',
-	// },
+export const LanguagesData = [
+	{
+		name: 'Best Security',
+		description: 'We offer the best data security to our clients, which makes us stand out',
+		icon: iconStyle(BsFillShieldLockFill),
+		imgClass: 'one',
+	},
 	{
 		name: 'Clients',
 		description: '5+ Clients Worldwide',
@@ -26,18 +26,18 @@ export const featuresData = [
 		icon: iconStyle(FaProjectDiagram),
 		imgClass: 'three',
 	},
-	// {
-	// 	name: '24/7 Support',
-	// 	description: 'Our team is available at all times in case you need us',
-	// 	icon: iconStyle(BiSupport),
-	// 	imgClass: 'four',
-	// },
-	// {
-	// 	name: 'Price',
-	// 	description: 'We offer the highest value/cost ratio',
-	// 	icon: iconStyle(BiDollar),
-	// 	imgClass: 'five',
-	// },
+	{
+		name: '24/7 Support',
+		description: 'Our team is available at all times in case you need us',
+		icon: iconStyle(BiSupport),
+		imgClass: 'four',
+	},
+	{
+		name: 'Price',
+		description: 'We offer the highest value/cost ratio',
+		icon: iconStyle(BiDollar),
+		imgClass: 'five',
+	},
 	{
 		name: 'Experience',
 		description: '1+ Years Working',

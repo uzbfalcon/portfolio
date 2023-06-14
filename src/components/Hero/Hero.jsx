@@ -2,21 +2,43 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container, MainHeading } from '../../globalStyles';
 import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './HeroStyles';
+import {AiOutlineGithub, AiOutlineInstagram, AiFillLinkedin} from 'react-icons/ai'
+import {FaTelegramPlane} from 'react-icons/fa'
+import {BsInstagram} from 'react-icons/bs'
 
 const Hero = () => {
 	return (
 		<HeroSection>
-			<HeroVideo src="./assets/hero.mp4" autoPlay muted />
+			<HeroVideo src="./assets/hero.mp4" autoPlay muted loop />
 			<Container>
-				<MainHeading>Your data is secure with us</MainHeading>
 				<HeroText>
-					We provide the best security systems for clients all over the world
+					Hello I'm
+				</HeroText>
+				<MainHeading>Khujamov Lochinbek</MainHeading>
+				<HeroText>
+					I'm Frontend developer
 				</HeroText>
 				<ButtonWrapper>
-					<Link to="signup">
-						<Button>Get Started</Button>
+					<Link to="https://github.com/uzbfalcon">
+						<button className='github'>
+							<AiOutlineGithub className='git' />
+						</button>
 					</Link>
-					<HeroButton>Find More</HeroButton>
+					<Link to='https://www.instagram.com/falcondeveloper_/'>
+						<button className='instagram'>
+							<AiOutlineInstagram  className='insta'/>
+						</button>
+					</Link>
+					<Link to='https://www.linkedin.com'>
+						<button className='linkedin'>
+							<AiFillLinkedin className='link'/>
+						</button>
+					</Link>
+					<Link to='https://www.telegram.com'>
+						<button className='telegram'>
+							<FaTelegramPlane className='tele'/>
+						</button>
+					</Link>
 				</ButtonWrapper>
 			</Container>
 		</HeroSection>

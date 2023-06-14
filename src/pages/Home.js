@@ -5,6 +5,7 @@ import Features from '../components/Features/Features';
 // import Game from '../components/Game';
 import Hero from '../components/Hero/Hero';
 import { heroOne, heroTwo, heroThree } from '../data/HeroData';
+import Languages from '../components/Languages/Features';
 
 // Hero Feature Content Carousel
 
@@ -13,7 +14,7 @@ const Home = () => {
 		<>
 			<Hero />
 			<Features />
-			<Content {...heroOne} />
+			<Languages/>
 			<Content {...heroTwo} />
 			<Content {...heroThree} />
 			<Carousel />

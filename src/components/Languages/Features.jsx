@@ -14,7 +14,7 @@ import {
 import { featuresData } from '../../data/FeaturesData';
 import img from "../../Assets/Falconlogo.png"
 
-const Features = () => {
+const Languages = () => {
 	const initial = {
 		y: 40,
 		opacity: 0,
@@ -30,11 +30,6 @@ const Features = () => {
 				<FeatureTextWrapper>
 					<FeatureTitle>About me</FeatureTitle>
 				</FeatureTextWrapper>
-				<Wrapper>
-					<Featureimg>
-						<img src={img} alt="" />
-						<div className='bacg'> </div>
-					</Featureimg>
 					<FeatureWrapper>
 						{featuresData.map((el, index) => (
 							<FeatureColumn
@@ -51,10 +46,9 @@ const Features = () => {
 							</FeatureColumn>
 						))}
 					</FeatureWrapper>
-				</Wrapper>
 			</Container>
 		</Section>
 	);
 };
 
-export default Features;
+export default Languages;
