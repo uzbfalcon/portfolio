@@ -39,7 +39,11 @@ export const NavLogo = styled(Link)`
 export const NavIcon = styled.img`
 	margin-right: 1rem;
 	width: 3.5rem;
-	border-radius: 50%;
+	height: 3.5rem;
+	border-radius: 70%;
+	background-position: right 45px bottom 20px;
+	image-resolution: 300dpi;
+
 `;
 
 export const MobileIcon = styled.div`

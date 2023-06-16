@@ -3,7 +3,7 @@ import {  FaTimes } from 'react-icons/fa';
 import { CgMenuRight } from 'react-icons/cg';
 import { IconContext } from 'react-icons';
 // import falcon from "../../Assets/generallogo.png"
-import falcon from "../../Assets/Falconlogo.png"
+import falcon from "../../Assets/Logo.png"
 import {
 	Nav,
 	NavbarContainer,
