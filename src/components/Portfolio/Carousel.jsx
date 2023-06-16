@@ -9,7 +9,9 @@ import {
 	CarouselImage,
 	CardButton,
 	Container,
-	Heading
+	Heading,
+	Subtitle,
+	Textwrapper
 } from './CarouselStyles';
 import img1 from '../../Assets/Screenshot (86).png'
 import img2 from '../../Assets/Screenshot (87).png'
@@ -24,9 +26,14 @@ const Portfolio = () => {
 	return (
 		<Section margin="auto" maxWidth="1280px" padding="50px 70px" inverse>
 			<Row justify="space-between" margin="1rem" wrap="wrap">
-				<Heading width="auto" inverse className='heading'>
-					Portfolio
-				</Heading>
+				<Textwrapper>
+					<Heading width="auto" inverse className='heading'>
+						Portfolio
+					</Heading>
+					<Subtitle>
+						My Recent Works
+					</Subtitle>
+				</Textwrapper>
 				{/* <ButtonContainer>
 					<IconContext.Provider value={{ size: '3rem', color: '#1d609c' }}>
 						<FaArrowCircleLeft onClick={sliderRef?.slickPrev} />
@@ -39,7 +46,7 @@ const Portfolio = () => {
 				<ImageWrapper >
 					<CarouselImage src={img1} />
 					<TextWrapper size="1.8rem" margin="0.4rem 0 0" weight="bold">
-						Doniyor shifo Klinikasi
+						Doniyor shifo Hospital
 					</TextWrapper>
 					<TextWrapper size="0.9rem" margin="0.7rem" color="#4f4f4f">
 						This web site is Personal Hospital
@@ -75,7 +82,7 @@ const Portfolio = () => {
 				<ImageWrapper >
 					<CarouselImage src={img4} />
 					<TextWrapper size="1.8rem" margin="0.4rem 0 0" weight="bold">
-						Doniyor shifo Klinikasi
+						CRUD Table
 					</TextWrapper>
 					<TextWrapper size="0.9rem" margin="0.7rem" color="#4f4f4f">
 						It is based on HTML, CSS, Javascript. And you can do CRUD on it

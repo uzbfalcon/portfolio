@@ -30,10 +30,22 @@ export const Heading = styled.h2`
   text-align: center;
   width: ${({ width }) => (width ? width : "100%")};
 
-	@media screen and (max-width: 560px) {
-		margin: auto;
-	}
+	
 `;
+export const Subtitle = styled.div`
+	color: #555555;
+	font-size: 1.3rem;
+
+`
+export const Textwrapper = styled.h2`
+	display: flex;
+	flex-direction: column;
+	
+	
+	@media screen and (max-width: 560px) {
+		margin-left: 1.8rem;
+	}
+`
 
 export const CarouselImage = styled.img`
 	width: 100%;
