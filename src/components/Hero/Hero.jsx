@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button, Container, MainHeading } from '../../globalStyles';
-import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './HeroStyles';
+import { Container, MainHeading } from '../../globalStyles';
+import { HeroVideo, HeroSection, HeroText, ButtonWrapper } from './HeroStyles';
 import {AiOutlineGithub, AiOutlineInstagram, AiFillLinkedin} from 'react-icons/ai'
 import {FaTelegramPlane} from 'react-icons/fa'
-import {BsInstagram} from 'react-icons/bs'
+// import {BsInstagram} from 'react-icons/bs'
 
 const Hero = () => {
 	return (

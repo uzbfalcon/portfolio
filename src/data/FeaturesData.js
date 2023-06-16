@@ -1,9 +1,12 @@
 import React from 'react';
 
-import { BsFillShieldLockFill } from 'react-icons/bs';
-import { IoIosOptions } from 'react-icons/io';
-import { AiOutlineCloudUpload } from 'react-icons/ai';
-import { BiSupport, BiDollar, BiCodeCurly, BiGroup } from 'react-icons/bi';
+// import { BsFillShieldLockFill } from 'react-icons/bs';
+// import { IoIosOptions } from 'react-icons/io';
+// import { AiOutlineCloudUpload } from 'react-icons/ai';
+import { 
+	// BiSupport, BiDollar, 
+	BiCodeCurly, BiGroup } from 'react-icons/bi';
+
 import { FaProjectDiagram } from 'react-icons/fa';
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 

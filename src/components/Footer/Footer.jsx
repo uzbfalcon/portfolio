@@ -26,7 +26,8 @@ function Footer() {
 							UZBFALCON
 						</FooterLogo>
 						<FooterAddress>
-							69 Street, UZBFALCON Building, US Road, Los Angeles 123
+							Asia, Uzbekistan, Tashkent, Tashkent,
+							
 						</FooterAddress>
 
 						<Row align="center" margin="auto  0 0 0" gap="1rem">

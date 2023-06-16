@@ -86,8 +86,8 @@ export const Featureimg = styled.div`
 		border: inset rgb(15 48 78);
 		z-index: 9999;
 		position: absolute;
-		top: 2rem;
-		left: 2rem;
+		top: 1.5rem;
+		left: 1.5rem;
 		transition: 0.5s ease-in-out;
 
 		&:hover {
