@@ -45,7 +45,7 @@ const Portfolio = () => {
 			<Container  >
 				<ImageWrapper >
 					<CarouselImage src={img1} />
-					<TextWrapper size="1.8rem" margin="0.4rem 0 0" weight="bold">
+					<TextWrapper className='title' size="1.8rem" margin="0.4rem 0 0" weight="bold" textAlign='center'>
 						Doniyor shifo Hospital
 					</TextWrapper>
 					<TextWrapper size="0.9rem" margin="0.7rem" color="#4f4f4f">

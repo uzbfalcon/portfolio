@@ -41,19 +41,24 @@ export const Textwrapper = styled.h2`
 	display: flex;
 	flex-direction: column;
 	
+	.title{
+		text-align: center;
+	}
 	
 	@media screen and (max-width: 560px) {
 		margin-left: 1.8rem;
+
 	}
 `
 
 export const CarouselImage = styled.img`
 	width: 100%;
-	max-height: 350px;
+	max-height: 380px;
+	min-height: 150px;
 	border-radius: 10px 10px 0 0;
 	object-fit: cover;
 	vertical-align: middle;
-	border: 3px solid #1d609c;
+	/* border: 3px solid #1d609c; */
 `;
 
 export const ImageWrapper = styled.div`
