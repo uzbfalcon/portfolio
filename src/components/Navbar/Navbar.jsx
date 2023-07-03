@@ -53,7 +53,7 @@ const Navbar = () => {
 						UZBFALCON
 					</NavLogo>
 					<MobileIcon onClick={handleClick}>
-						{show ? <FaTimes /> : <CgMenuRight style={{marginTop: '2px'}} />}
+						{show ? <FaTimes /> : <CgMenuRight style={{marginTop: '2px' }} />}
 					</MobileIcon>
 					<NavMenu show={show}>
 						{data.map((el, index) => (

@@ -35,7 +35,7 @@ const Portfolio = () => {
 					</Subtitle>
 				</Textwrapper>
 				{/* <ButtonContainer>
-					<IconContext.Provider value={{ size: '3rem', color: '#1d608c' }}>
+					<IconContext.Provider value={{ size: '3rem', color: '#1d608c'  }}>
 						<FaArrowCircleLeft onClick={sliderRef?.slickPrev} />
 						<FaArrowCircleRight onClick={sliderRef?.slickNext} />
 					</IconContext.Provider>
