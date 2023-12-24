@@ -54,7 +54,8 @@ function Footer() {
 						</FooterLinkItems>
 					))}
 				</FooterGrid>
-				<FooterRights>UZBFALCON © 2021</FooterRights>
+				<FooterRights style={{letterSpacing: "2px", }}>Created  by  <b style={{fontSize :'1rem'}}>Lochinbek Khujamov</b></FooterRights>
+				<FooterRights style={{border: 'none', marginTop: '-10px'}}>UZBFALCON © 2021</FooterRights>
 			</FooterWrapper>
 		</Section>
 	);

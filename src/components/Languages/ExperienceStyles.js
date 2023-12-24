@@ -36,10 +36,13 @@ export const ExperienceWrapper = styled.div`
 	/* background: #308AF0; */
 	padding: 2rem 0 2rem 10rem;
 	transition: 0.5s ease-in-out;
+	border-radius: 50% 20% / 10% 40%;	
+	box-shadow: 3px 3px 10px 3px white;
 	&:hover {
-		background-color: white;
-		color: black;
-		transition: 0.3s ease-in-out .1s;
+		/* background-color: white;
+		color: black; */
+		box-shadow: 3px 3px 15px 30px white;
+		transition: 0.3s ease-in-out 0.1s;
 		border: 2px solid white;
 	}
 	
